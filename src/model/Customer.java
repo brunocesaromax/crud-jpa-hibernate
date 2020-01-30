@@ -21,10 +21,22 @@ public class Customer {
     private String gender;
     private String profession;
 
-    public Customer(String name, Integer age, String gender, String profession){
+    public Customer(String name, Integer age, String gender, String profession) {
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.profession = profession;
+    }
+
+    public Customer() { }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                ", profession='" + profession + '\'' +
+                '}';
     }
 }
