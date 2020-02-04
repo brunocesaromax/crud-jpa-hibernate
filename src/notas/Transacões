@@ -1,0 +1,4 @@
+Precisamos de transações para operações que iram alterar dados no BD:
+Create, Update, Delete
+
+ACID --> Atomicidade, consistencia, isolamento, durabilidade
